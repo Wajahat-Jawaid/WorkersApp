@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WorkersApp</string>
+    <string name="role_wise">Role Wise</string>
+
+    <string name="workers_failed">Failed to get workers</string>
+    <string name="no_internet">Please connect to internet</string>
+    <string name="req_timeout">Request Timeout</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loader_padding">6dp</dimen>
+    <dimen name="list_fragments_padding">6dp</dimen>
+    <dimen name="row_item_worker_m_s_b">4dp</dimen>
+    <dimen name="row_item_worker_m_t">6dp</dimen>
+    <dimen name="row_item_worker_helmet_color_w_h">12dp</dimen>
+    <dimen name="row_item_worker_header_p_s_e">4dp</dimen>
+    <dimen name="row_item_worker_header_p_t_b">3dp</dimen>
+    <dimen name="workers_toolbar_switch_padding">6dp</dimen>
+</resources>

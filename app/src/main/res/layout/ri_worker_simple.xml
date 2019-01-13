@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/row_item_worker_m_s_b"
+    android:layout_marginTop="@dimen/row_item_worker_m_t"
+    android:layout_marginEnd="2dp"
+    android:layout_marginBottom="@dimen/row_item_worker_m_s_b"
+    android:background="@null">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitosans_bold"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/text_xdark"
+        app:layout_constraintEnd_toStartOf="@+id/v_helmet_color"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Wajahat Jawaid" />
+
+    <View
+        android:id="@+id/v_helmet_color"
+        android:layout_width="@dimen/row_item_worker_helmet_color_w_h"
+        android:layout_height="@dimen/row_item_worker_helmet_color_w_h"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitosans_regular"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/text_dark"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        tools:text="Software Engineer" />
+
+    <TextView
+        android:id="@+id/tv_contractor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/nunitosans_regular"
+        android:maxLength="20"
+        android:textColor="@color/text_normal"
+        app:layout_constraintTop_toBottomOf="@+id/tv_role"
+        tools:text="WC-CCC-5" />
+
+    <TextView
+        android:id="@+id/tv_last_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitosans_light"
+        android:maxLines="1"
+        android:textColor="@color/text_light"
+        android:textSize="@dimen/text_xsmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_role"
+        tools:text="2019-01-11T19:11:02.000Z" />
+</android.support.constraint.ConstraintLayout>
